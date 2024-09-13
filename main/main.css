@@ -12,13 +12,13 @@
   margin: auto;
 }
 
-.center, .sec3list li, .sec4, .sec3, .sec1, .sec1_buttons, .header .header_menu, .header ul {
+.center, .sec8_cards, .sec7_cards, .sec6_cards, .sec3list li, .sec4, .sec3, .sec1, .sec1_buttons, .header .header_menu, .header ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.centered, .sec5, .sec2 {
+.centered, .secttion_9, .sec8, .sec7_card, .sec5, .sec2 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,6 +29,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: #ffffff;
 }
 .header ul {
   list-style: none;
@@ -276,4 +277,228 @@
   border-radius: 28px;
   padding: 20px;
   background-color: white;
+}
+
+.sec5_button {
+  width: 210px;
+  height: 60px;
+  background-color: #02897A;
+  color: white;
+  margin-top: 80px;
+  border-radius: 10px;
+}
+
+.secttion_6 {
+  margin-top: 250px;
+  width: 100%;
+  height: 650px;
+}
+.secttion_6 h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 100px;
+}
+.secttion_6 p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.sec6_card {
+  width: 350px;
+  height: 360px;
+  border-radius: 8px;
+  border: 1px solid rgb(204, 203, 203);
+}
+.sec6_card h3 {
+  padding: 10px;
+  font-size: 26px;
+}
+.sec6_card h4 {
+  padding: 20px;
+  font-size: 18px;
+}
+
+.secttion_7 {
+  width: 100%;
+  height: 620px;
+}
+.secttion_7 h1 {
+  text-align: center;
+  font-size: 34px;
+}
+.secttion_7 p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.sec7_cards {
+  margin-top: 50px;
+}
+
+.sec7_card {
+  width: 325px;
+  height: 456px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 15px;
+}
+.sec7_card h2 {
+  margin-top: 30px;
+  font-size: 24px;
+}
+.sec7_card p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+.sec7_card .price {
+  display: flex;
+}
+.sec7_card .price h1 {
+  font-size: 76px;
+  font-weight: 700;
+  text-align: center;
+  color: #02897A;
+}
+.sec7_card .price sup {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #02897A;
+}
+.sec7_card .price p {
+  margin-top: 60px;
+  color: gray;
+}
+.sec7_card .price_button {
+  width: 140px;
+  height: 45px;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  background-color: #02897A;
+}
+.sec7_card .price_button:hover {
+  color: #02897A;
+  background-color: white;
+  cursor: pointer;
+}
+.sec7_card:hover {
+  background-color: #02897A;
+  color: white;
+  transition-duration: 0.6s;
+  cursor: pointer;
+}
+.sec7_card:hover h2 {
+  color: white;
+}
+.sec7_card:hover h1 {
+  color: white;
+}
+.sec7_card:hover p {
+  color: white;
+}
+.sec7_card:hover sup {
+  color: white;
+}
+.sec7_card:hover button {
+  background-color: white;
+  color: #02897A;
+}
+
+.sec8 {
+  margin-top: 80px;
+}
+
+.sec8_card {
+  width: 327px;
+  height: 236px;
+  border: 1px solid #DEDEDE;
+  padding: 20px;
+}
+
+.sec8_cards {
+  margin-top: 40px;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.avatar div h3 {
+  color: #02897A;
+  line-height: 24px;
+}
+.avatar div p {
+  margin-top: 0;
+}
+
+.secttion_9 {
+  margin-top: 100px;
+}
+
+.sec9 {
+  display: flex;
+  justify-content: space-between;
+  width: 970px;
+  height: 350px;
+  background-color: #02897A;
+  border-radius: 32px;
+  border: none;
+  padding: 40px;
+}
+
+.s9_left {
+  width: 500px;
+  height: 350px;
+}
+.s9_left h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+}
+.s9_left button {
+  width: 150px;
+  height: 50px;
+  margin-top: 50px;
+  border-radius: 8px;
+  color: #02897A;
+  background-color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 100px;
+}
+
+.logo_footer {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.footer1 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.footer1 ul {
+  list-style: none;
+}
+
+.input {
+  width: 325px;
+  height: 48px;
+}
+
+.btn_footer {
+  width: 131px;
+  height: 39px;
+  background-color: #02897A;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
